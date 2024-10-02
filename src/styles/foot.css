@@ -90,3 +90,20 @@ color: #31546D;
 .foot__content .right img{
     margin-top: -5rem;
 }
+
+.foot__btn{
+width: 174px;
+height: 50px;
+background: linear-gradient(90deg, #75CCEB 0%, #6FB4FF 100%);
+border-radius: 18px;
+color: white;
+font-weight: bold;
+border: 3px solid #75CCEB;
+transition: all 0.2s ease-in-out;
+}
+
+.foot__btn:hover{
+    background: none;
+    color: black;
+    border: 3px solid #6FB4FF;
+}
