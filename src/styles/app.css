@@ -1,0 +1,92 @@
+.app_container
+{
+    position: relative;
+}
+
+.app_container::before
+{
+    content: '';
+    background: url("../../public/hero.png");
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: -4;
+    transform: scaleY(-1);
+    opacity: 0.5;
+}
+
+.blob1
+{
+    position: absolute;
+    top: -5rem;
+    left: 20rem;
+    filter: blur(8rem);
+    z-index: -2;
+    opacity: 0.8;
+}
+
+.blob2
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -3;
+    filter: blur(8rem);
+    opacity: 0.5;
+}
+
+.blob3
+{
+    position: absolute;
+    top: 20rem;
+    left: 0;
+    z-index: -1;
+}
+
+.hero
+{
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 8rem;
+}
+
+.hero__left
+{
+    width: 60%;
+    padding-left: 50px;
+    padding-top: 50px;
+    color: white;
+}
+
+.hero__left h2
+{
+    font-size: 40px;  
+}
+
+.hero__left h1
+{
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.hero__left p
+{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #31546D;
+    width: 400px;
+}
+
+.hero__left a{
+    margin-left: 40px;
+    color: #317189;
+
+}
+
+.hero__right
+{
+    width: 40%;
+    margin-right: 50px;
+}

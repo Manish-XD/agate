@@ -1,0 +1,92 @@
+.foot__container {
+    padding-top: 150px;
+    position: relative;
+    max-height: 900px;
+    height: 900px;
+}
+
+.foot__container .bg2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    filter: blur(5rem);
+    z-index: -3;
+}
+
+.foot__container .blob {
+    position: absolute;
+    right: 0;
+    top: 0;
+    filter: blur(10rem);
+    z-index: -2;
+}
+
+.foot__container .bg1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.foot__content {
+    display: flex;
+}
+
+.foot__content .left {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 50%;
+    margin-left: 212px;
+}
+
+.foot__content .left h2 {
+    font-size: 40px;
+    color: #31546D;
+}
+
+.foot__content .left h1 {
+    font-size: 64px;
+    color: #31546D;
+    font-weight: bold;
+}
+
+.foot__content .right {
+    width: 50%;
+    position: relative;
+}
+
+.foot__content .left .price {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+    font-size: 24px;
+    text-decoration-line: line-through;
+    color: #41A0B7;
+    margin-right: 30px;
+}
+
+.actualPrice{
+font-weight: 700;
+font-size: 70px;
+color: #E35B3E;
+
+
+}
+
+.foot__content .left p{
+width: 400px;
+text-align: right;
+color: #31546D;
+
+
+}
+
+.foot__content .right img{
+    margin-top: -5rem;
+}
